@@ -72,9 +72,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.buy;
-            pictureBox1.Location = new Point(850, 0);
+            pictureBox1.Location = new Point(828, 15);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(145, 147);
+            pictureBox1.Size = new Size(143, 122);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -121,7 +121,7 @@
             // btnClose
             // 
             btnClose.Image = Properties.Resources.cerrar;
-            btnClose.Location = new Point(575, 329);
+            btnClose.Location = new Point(721, 332);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(69, 39);
             btnClose.TabIndex = 7;
@@ -131,7 +131,7 @@
             // btnDelete
             // 
             btnDelete.Image = Properties.Resources.delete;
-            btnDelete.Location = new Point(575, 274);
+            btnDelete.Location = new Point(721, 277);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(69, 39);
             btnDelete.TabIndex = 6;
@@ -141,7 +141,7 @@
             // btnEdit
             // 
             btnEdit.Image = Properties.Resources.edit;
-            btnEdit.Location = new Point(575, 213);
+            btnEdit.Location = new Point(721, 216);
             btnEdit.Name = "btnEdit";
             btnEdit.Size = new Size(69, 39);
             btnEdit.TabIndex = 5;
@@ -150,7 +150,7 @@
             // btnNew
             // 
             btnNew.Image = Properties.Resources._new;
-            btnNew.Location = new Point(575, 152);
+            btnNew.Location = new Point(721, 155);
             btnNew.Name = "btnNew";
             btnNew.Size = new Size(69, 39);
             btnNew.TabIndex = 4;
@@ -165,12 +165,12 @@
             DgPayMode.Name = "DgPayMode";
             DgPayMode.ReadOnly = true;
             DgPayMode.RowTemplate.Height = 25;
-            DgPayMode.Size = new Size(415, 184);
+            DgPayMode.Size = new Size(502, 184);
             DgPayMode.TabIndex = 3;
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(556, 80);
+            btnSearch.Location = new Point(702, 83);
             btnSearch.Name = "btnSearch";
             btnSearch.Size = new Size(101, 28);
             btnSearch.TabIndex = 2;
@@ -179,7 +179,7 @@
             // 
             // TxtSearch
             // 
-            TxtSearch.Location = new Point(115, 79);
+            TxtSearch.Location = new Point(202, 83);
             TxtSearch.Name = "TxtSearch";
             TxtSearch.PlaceholderText = "Data to search";
             TxtSearch.Size = new Size(415, 29);
@@ -188,7 +188,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(357, 54);
+            label2.Location = new Point(444, 58);
             label2.Name = "label2";
             label2.Size = new Size(173, 22);
             label2.TabIndex = 0;
@@ -204,10 +204,10 @@
             tabPage2.Controls.Add(label4);
             tabPage2.Controls.Add(TxtPayModeId);
             tabPage2.Controls.Add(label3);
-            tabPage2.Location = new Point(4, 31);
+            tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(991, 446);
+            tabPage2.Size = new Size(991, 453);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Pay Mode Detail";
             tabPage2.UseVisualStyleBackColor = true;
